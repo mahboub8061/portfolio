@@ -57,7 +57,7 @@ h4 {
 .app-button {
   background-color: var(--primary-color);
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--bg-color);
 }
@@ -128,6 +128,9 @@ h4 {
   }
 
   .hero a {
+    font-size: 16px;
+  }
+  .app-button {
     font-size: 16px;
   }
   .image {
