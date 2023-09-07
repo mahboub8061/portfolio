@@ -107,6 +107,7 @@ h4 {
 @media (max-width: 768px) {
   .hero {
     padding: 24px;
+    text-align: center;
   }
   h1 {
     font-size: 26px;
