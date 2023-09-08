@@ -42,6 +42,16 @@ h2 {
   background-color: var(--bg-color);
   padding-bottom: 100px;
 }
+.works a {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--bg-color);
+  padding: 12px 14px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  font-weight: 700;
+}
 h3 {
   font-family: "Merriweather", serif;
   font-weight: 700;
@@ -50,10 +60,49 @@ h3 {
 }
 h4 {
   font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 26px;
+  color: var(--primary-color);
+  font-style: italic;
+}
+h5 {
+  font-family: "Merriweather", serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 24px;
   color: var(--primary-color);
 }
+nav {
+  margin-top: 44px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.top-menu {
+  margin: 0px;
+  padding: 0px;
+}
+.top-menu li {
+  display: inline;
+  margin-left: 30px;
+  line-height: 20px;
+}
+.active {
+  color: var(--primary-color);
+}
+.inactive {
+  color: var(--secondary-color);
+}
+.top-menu li a {
+  text-decoration: none;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  transition: all 150ms ease-in-out;
+}
+.top-menu li a:hover,
+acttive {
+  color: var(--primary-color);
+}
+
 .app-button {
   background-color: var(--primary-color);
   font-family: "Kumbh Sans", sans-serif;
@@ -82,6 +131,7 @@ h4 {
 
 .footer {
   padding-top: 10px;
+  align-items: center;
 
   padding-bottom: 64px;
 }
@@ -99,6 +149,16 @@ h4 {
   margin: 10px;
 }
 @media (max-width: 768px) {
+  .top-menu li a {
+    font-size: 16px;
+  }
+  .top-menu li {
+    margin-left: 5px;
+  }
+  nav {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .hero {
     padding: 30px;
     text-align: center;
@@ -115,6 +175,9 @@ h4 {
   h4 {
     font-size: 20px;
     text-align: center;
+  }
+  h5 {
+    font-size: 16px;
   }
   p {
     font-size: 16px;
@@ -176,5 +239,5 @@ p {
 }
 .contact-me {
   background-color: var(--bg-color);
-  padding: 30px 0px 250px 0px;
+  padding: 30px 0px 50px 0px;
 }
