@@ -7,8 +7,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
-  padding: 150px;
+  margin-top: 100px;
+  padding: 100px 150px 100px 150px;
 }
 h1 {
   font-family: "Merriweather", serif;
@@ -149,4 +149,8 @@ h4 {
 }
 .image-box {
   border-radius: 50px;
+}
+
+.about a {
+  align-self: center;
 }
